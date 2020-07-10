@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Latest from "../views/Latest.vue";
+import Admin from "../views/Admin.vue";
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,11 @@ const routes = [
     path: "/latest",
     name: "Latest",
     component: Latest
+  },
+  {
+    path: "/admin",
+    name: "Admin",
+    component: Admin
   },
   {
     path: "/about",

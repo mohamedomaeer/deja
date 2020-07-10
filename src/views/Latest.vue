@@ -1,6 +1,5 @@
 <template>
-  <div class="home">
-    <MainVideo />
+  <div class="Latest">
     <HomeCategory />
     <HomeCategory />
     <HomeCategory />
@@ -9,13 +8,11 @@
 
 <script>
 // @ is an alias to /src
-import MainVideo from "@/components/MainVideo.vue";
 import HomeCategory from "@/components/HomeCategory.vue";
 
 export default {
-  name: "Home",
+  name: "Latest",
   components: {
-    MainVideo,
     HomeCategory
 
   }
